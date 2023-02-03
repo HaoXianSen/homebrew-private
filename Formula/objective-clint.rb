@@ -1,18 +1,19 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class format-objc-hook < Formula
+class ObjectiveClint < Formula
   desc "A Objective-C code lint tool"
   homepage "https://github.com/HaoXianSen/Objective-CLint"
-  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "5083d7583edd78ac909a533fda292638d7c4ce8881abe6d011348f2a71b17318"
+  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v0.0.5.tar.gz"
+  sha256 "ee0964abd1cb4914a7dc504b818e09b5d6599accb90264675ad6ac5abb195e71"
   license ""
-  version "1.0.4"
+  version "0.0.5"
 
   # depends_on "cmake" => :build
 
   def install
-    bin.install "format-objc-hook"
+    bin.install  Dir["bin/*"]
+    include.install  Dir["include/*"]
   end
 
   test do
