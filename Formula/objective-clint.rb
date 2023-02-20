@@ -2,7 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class ObjectiveClint < Formula
-  desc "A Objective-C code lint tool"
+  desc "A Sample Objective-C code lint tool"
   homepage "https://github.com/HaoXianSen/Objective-CLint"
   url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v0.0.5.tar.gz"
   sha256 "ee0964abd1cb4914a7dc504b818e09b5d6599accb90264675ad6ac5abb195e71"
