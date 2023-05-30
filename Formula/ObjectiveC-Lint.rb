@@ -1,13 +1,13 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class ObjectiveC_Lint < Formula
+class ObjectiveCLint < Formula
   desc "A Objective-C code lint tool"
   homepage "https://github.com/HaoXianSen/Objective-CLint"
-  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v0.0.5.tar.gz"
-  sha256 "ee0964abd1cb4914a7dc504b818e09b5d6599accb90264675ad6ac5abb195e71"
+  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "f85b1a27cba87a675fc9a60cf066a2071db42aa7fd45a5a4a0eea27eb21ff37e"
   license ""
-  version "0.0.5"
+  version "1.0.0"
 
   # depends_on "cmake" => :build
 
