@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class ObjectiveCLint < Formula
+class ObjcLint < Formula
   desc "A Objective-C code lint tool"
   homepage "https://github.com/HaoXianSen/Objective-CLint"
   url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v1.0.0.tar.gz"
