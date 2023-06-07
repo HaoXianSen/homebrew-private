@@ -17,7 +17,7 @@ class LintMaker < Formula
   
   def install
       system "swift", "build", "--disable-sandbox", "--configuration", "release", "--product", "lintMaker"
-      bin.install ".build/release/lintmaker"
+      bin.install ".build/release/lintMaker"
   end
 
   test do
