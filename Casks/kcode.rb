@@ -1,6 +1,6 @@
 cask "kcode" do
-  version "1.0.0"
-  sha256 "a7e0baf2eb07f0a8bd76b8f56f9b2e421a056f3f377f08fcd6d72f2db104da1f"
+  version "1.0.1"
+  sha256 "dc367972a181fbbb123f6ced50e3efdb634ca9ffd08dbda329ca22b1ca1e306c"
 
   url "https://github.com/HaoXianSen/kCode/releases/download/v#{version}/KCode_#{version}.dmg"
   name "KCode"
