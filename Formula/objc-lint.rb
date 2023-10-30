@@ -4,10 +4,10 @@
 class ObjcLint < Formula
   desc "A Objective-C code lint tool"
   homepage "https://github.com/HaoXianSen/Objective-CLint"
-  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "f85b1a27cba87a675fc9a60cf066a2071db42aa7fd45a5a4a0eea27eb21ff37e"
+  url "https://github.com/HaoXianSen/Objective-CLint/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "b835fb58b5f93eb42608f3a1062fca1c5c70c244143244b6566f8c1778c78e86"
   license ""
-  version "1.0.0"
+  version "1.0.2"
 
   # depends_on "cmake" => :build
 
